@@ -1,0 +1,89 @@
+/* Layout */
+
+.layout {
+  display: flex;
+}
+
+.main {
+  padding: 20px;
+  width: 100%;
+}
+
+
+/* Navbar */
+
+.navbar {
+  background: #222;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Sidebar */
+
+.sidebar {
+  width: 200px;
+  background: #333;
+  color: white;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+
+/* Dashboard */
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 150px;
+  height: 100px;
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.layout {
+  display: flex;
+}
+
+.main {
+  padding: 20px;
+  width: 100%;
+}
+
+.form input {
+  display: block;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.form button {
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+.search {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.visitor-card {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.visitor-card img {
+  margin-top: 5px;
+}
